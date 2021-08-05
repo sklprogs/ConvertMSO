@@ -258,6 +258,7 @@ class Convert:
 if __name__ == '__main__':
     f = '[ConvertMSO] controller.__main__'
     sh.com.start()
-    folder = sh.Home().get_home()
+    #folder = sh.Home().get_home()
+    folder = '/home/pete/base/docs'
     Convert(folder,False).run()
     sh.com.end()
